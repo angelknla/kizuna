@@ -1,0 +1,54 @@
+<%- include('partials/header') %>
+
+
+<main class="form-signin">
+
+  <div class="container-fluid title-div">
+    <h1>Wake up an be productive</h1>
+
+  </div>
+
+  <form class="form-width" method="POST" action="/">
+    <img class="mb-4 signup-img" src="assets/images/kizuna.png" alt="" width="72" height="57">
+    <h1 class="h3 mb-3 fw-normal">Sign in to Kizuna</h1>
+
+    <div class="form-floating">
+      <input type="email" name="username" class="form-control" id="floatingInput" >
+      <label for="floatingInput">Username</label>
+    </div>
+
+    <div class="form-floating">
+      <input type="password" name="password" class="form-control" id="floatingPassword" >
+      <label for="floatingPassword">Password</label>
+    </div>
+
+    <div class="checkbox mb-3">
+      <label>
+        <input type="checkbox" value="remember-me"> Remember me
+      </label>
+    </div>
+    <button class="w-100 btn btn-md btn-dark" type="submit">Sign in</button>
+  </form>
+  <div class="round">
+    <div class="myDIV btn-group">
+      <a href="/register" class="round w-100 btn btn-md btn-dark">
+        <i  class="fas fa-user"></i>
+      </a>
+    </div>
+    <div class="hide">New User Registration (Admin Only).</div>
+  </div>
+
+  <div class="container-fluid socials">
+    <h5 class="big-heading">Sing in using socials</h5>
+    <a href="/auth/google" class="download-button btn btn-sm btn-danger" type="button"><i class="social-icon fab fa-3x fa-google"></i></a>
+    <button class="download-button btn btn-sm btn-primary" type="button"><i class="social-icon fab fa-3x fa-linkedin-in"></i></button>
+    <button class="download-button btn btn-sm btn-warning" type="button"><i class="social-icon fab fa-3x fa-slack"></i></button>
+    <p class="mt-5 mb-3 text-muted">&copy; Kizuna 2021</p>
+  </div>
+
+</main>
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+
+<%- include('partials/footer') %>

@@ -1,0 +1,82 @@
+html,
+body {
+  height: 100%;
+  margin:auto;
+}
+h1, h4 {
+  padding: 10px;
+}
+body {
+  display: flex;
+  align-items: center;
+  padding-top: 0px;
+  padding-bottom: 40px;
+  background-color: white;
+}
+
+.title-div {
+  display: inline;
+}
+.signup-img {
+  height: 50%;
+  width: 50%;
+}
+
+.form-signin {
+  width: 100%;
+  max-width: 530px;
+  padding: 10px;
+  margin: auto;
+}
+.form-width {
+  max-width: 400px;
+  margin:auto;
+}
+.form-signin .checkbox {
+  font-weight: 400;
+}
+
+.form-signin .form-floating:focus-within {
+  z-index: 2;
+}
+
+.form-signin input[type="email"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+
+}
+
+.form-floating {
+  margin-bottom: 10px;
+}
+.socials {
+  padding-top: 30px;
+  padding-bottom: 10px;
+}
+
+p {
+  padding-top: 0px;
+}
+.form-signin input[type="role"] {
+  margin-bottom: 25px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+#floatingName {
+  border-radius: 0;
+}
+
+.round {
+  border-radius: 100%;
+  margin-top: 20px;
+}
+
+.hide {
+  display: none;
+}
+
+.myDIV:hover + .hide {
+  display: block;
+  color: red;
+}
